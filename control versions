@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>My Webite</title>
+    <link rel="stylesheet" href="style.css">
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style> 
+        html { 
+          background: url(img.jpg) no-repeat center fixed; 
+          background-size: cover;
+        }
+        
+        body { 
+          color: white; 
+        }
+        </style>
+</head>
+<body>
+
+  <div class="menu-bar">
+  <ul>
+    <li class="active"><a href="index.html">HOME</a></li>
+    <li class="active"><a href="menu.html">MENU</a></li>
+    <li class="active"><a href="about.html">ABOUT</a></li>
+    <li class="active"><a href="contact.html"> CONTACT</a></li>
+  </ul>  
+  </div>
+    <h1 style="margin-top: 200px; background-color:darkolivegreen; width:250px; margin-left: 550px;">
+      Thin Crust Pizza</h1>
+      
+      <h1 style="margin-top:210px; width: 200px; margin-left: 570px;background-color: black;">  <a href="menu.html">LET ME SEE THE MENU</a>
+      </h1>
+       <h2>
+        Open from 10am to 12pm
+       </h2>
+
+       <?php
+       echo "My first PHP script!";
+       ?>
+            
+        
+</body>
+</html>
